@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2E9B85EA19755A6B00F91395 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E9B85E919755A6B00F91395 /* logo.png */; };
+		2E5BA2FB198F7A37006C7C7E /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E5BA2FA198F7A37006C7C7E /* logo.png */; };
 		2EF901B3196DC00C003CF8EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF901B2196DC00C003CF8EE /* AppDelegate.swift */; };
 		2EF901B5196DC00C003CF8EE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EF901B4196DC00C003CF8EE /* Images.xcassets */; };
 		2EF901C1196DC00C003CF8EE /* HypnosisterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF901C0196DC00C003CF8EE /* HypnosisterTests.swift */; };
@@ -25,7 +25,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2E9B85E919755A6B00F91395 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = "../../../../Shared/New Text Books/ios/Solutions/00-Resources/logo.png"; sourceTree = "<group>"; };
+		2E5BA2FA198F7A37006C7C7E /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		2EF901AD196DC00C003CF8EE /* Hypnosister.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hypnosister.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EF901B1196DC00C003CF8EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2EF901B2196DC00C003CF8EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -75,7 +75,7 @@
 		2EF901AF196DC00C003CF8EE /* Hypnosister */ = {
 			isa = PBXGroup;
 			children = (
-				2E9B85E919755A6B00F91395 /* logo.png */,
+				2E5BA2FA198F7A37006C7C7E /* logo.png */,
 				2EF901B2196DC00C003CF8EE /* AppDelegate.swift */,
 				2EF901B4196DC00C003CF8EE /* Images.xcassets */,
 				2EF901B0196DC00C003CF8EE /* Supporting Files */,
@@ -188,7 +188,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E9B85EA19755A6B00F91395 /* logo.png in Resources */,
+				2E5BA2FB198F7A37006C7C7E /* logo.png in Resources */,
 				2EF901B5196DC00C003CF8EE /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
