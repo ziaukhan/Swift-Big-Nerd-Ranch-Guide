@@ -9,8 +9,12 @@
 import UIKit
 
 class BNRHypnosisView: UIView {
+    
+    required init(coder aDecoder: NSCoder!) {
+        super.init(coder: aDecoder)
+    }
 
-    init(frame: CGRect) {
+    override init(frame: CGRect) {
         super.init(frame: frame)
         // Initialization code
         
