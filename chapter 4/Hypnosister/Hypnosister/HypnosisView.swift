@@ -9,8 +9,12 @@
 import UIKit
 
 class HypnosisView: UIView {
+    required init(coder aDecoder: NSCoder!) {
+        super.init(coder: aDecoder)
+        self.backgroundColor = UIColor.clearColor()
+    }
 
-    init(frame: CGRect) {
+    override init(frame: CGRect) {
         super.init(frame: frame)
         self.backgroundColor = UIColor.clearColor()
         // Initialization code
