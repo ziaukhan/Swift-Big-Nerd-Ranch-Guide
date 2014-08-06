@@ -17,8 +17,14 @@ class QuizViewController: UIViewController {
     let questions : [String]
     let answers : [String]
     
-
-    init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: NSBundle?) {
+    required init(coder aDecoder: NSCoder!) {
+        self.questions = [ "From what is cognac made?",
+            "What is 7+77?",
+            "What is the capital of Vermont"]
+        self.answers = ["Grapes", "14", "Montpelier"]
+        super.init(coder: aDecoder)
+    }
+   override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: NSBundle?) {
         self.questions = [ "From what is cognac made?",
             "What is 7+77?",
             "What is the capital of Vermont"]
