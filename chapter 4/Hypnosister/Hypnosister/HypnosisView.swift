@@ -2,14 +2,12 @@
 //  HypnosisView.swift
 //  Hypnosister
 //
-//  Created by Zia Khan on 09/07/2014.
-//  Copyright (c) 2014 Panacloud. All rights reserved.
-//
+
 
 import UIKit
 
 class HypnosisView: UIView {
-    required init(coder aDecoder: NSCoder!) {
+    required init(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         self.backgroundColor = UIColor.clearColor()
     }
