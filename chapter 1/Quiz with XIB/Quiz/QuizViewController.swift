@@ -2,8 +2,6 @@
 //  QuizViewController.swift
 //  Quiz
 //
-//  Created by Zia Khan on 08/07/2014.
-//  Copyright (c) 2014 Panacloud. All rights reserved.
 //
 
 import UIKit
@@ -17,7 +15,7 @@ class QuizViewController: UIViewController {
     let questions : [String]
     let answers : [String]
     
-    required init(coder aDecoder: NSCoder!) {
+    required init(coder aDecoder: NSCoder) {
         self.questions = [ "From what is cognac made?",
             "What is 7+77?",
             "What is the capital of Vermont"]
@@ -60,14 +58,5 @@ class QuizViewController: UIViewController {
     }
     
 
-    /*
-    // #pragma mark - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue?, sender: AnyObject?) {
-        // Get the new view controller using [segue destinationViewController].
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+   
 }

@@ -43,7 +43,6 @@ class HypnosisView: UIView {
         //var text = "By Zia Khan"
         //text.drawInRect(bounds, withAttributes: Dictionary())
         
-        
     }
     
     
