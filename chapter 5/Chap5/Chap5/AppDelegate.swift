@@ -2,9 +2,6 @@
 //  AppDelegate.swift
 //  Chap5
 //
-//  Created by PanaCloud on 7/17/14.
-//  Copyright (c) 2014 PanaCloud. All rights reserved.
-//
 
 import UIKit
 
