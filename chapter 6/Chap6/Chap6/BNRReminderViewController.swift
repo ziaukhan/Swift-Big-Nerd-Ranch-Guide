@@ -2,9 +2,7 @@
 //  BNRReminderViewController.swift
 //  Chap6
 //
-//  Created by PanaCloud on 7/17/14.
-//  Copyright (c) 2014 PanaCloud. All rights reserved.
-//
+
 
 import UIKit
 
@@ -35,7 +33,7 @@ class BNRReminderViewController: UIViewController{
         self.tabBarItem.image = i
     }
     
-    required init(coder aDecoder: NSCoder!) {
+    required init(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
 

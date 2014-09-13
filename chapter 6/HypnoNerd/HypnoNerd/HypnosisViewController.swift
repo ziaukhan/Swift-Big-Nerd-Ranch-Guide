@@ -2,9 +2,7 @@
 //  HypnosisViewController.swift
 //  HypnoNerd
 //
-//  Created by Zia Khan on 05/08/2014.
-//  Copyright (c) 2014 Panacloud. All rights reserved.
-//
+
 
 import UIKit
 

@@ -2,15 +2,13 @@
 //  BNRHypnosisView.swift
 //  Chap4
 //
-//  Created by PanaCloud on 7/17/14.
-//  Copyright (c) 2014 PanaCloud. All rights reserved.
-//
+
 
 import UIKit
 
 class BNRHypnosisView: UIView {
     
-    required init(coder aDecoder: NSCoder!) {
+    required init(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
 
@@ -75,7 +73,7 @@ class BNRHypnosisView: UIView {
         
     }
     
-    override func touchesBegan(touches: NSSet!, withEvent event: UIEvent!) {
+    override func touchesBegan(touches: NSSet, withEvent event: UIEvent) {
         //get 3 random number b/w 0 and 1
         var red:CGFloat = CGFloat(Float(arc4random()) % 100.0) / 100.0
         var greenn:CGFloat = CGFloat(Float(arc4random()) % 100.0) / 100.0
